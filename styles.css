@@ -1,0 +1,94 @@
+body {
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#content {
+  width: 700px;
+  height: 700px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+input {
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+  padding: 15px;
+  width: 150px;
+  background: #ffffff;
+}
+h1 {
+  text-align: center;
+}
+
+/* sourced from https://getcssscan.com/css-buttons-examples */
+button {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#createTaskSection {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#sortSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 80%;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 15px;
+  border-top: solid 0.5px #e5e5e5;
+  border-bottom: solid 0.5px #e5e5e5;
+}
+.checkbox {
+  border: solid 1px black;
+}
+.priority {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 15px;
+  background-color: #e5e5e5;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.tasks {
+  text-align: center;
+}
+.taskRows {
+  display: flex;
+  width: 100%;
+}
